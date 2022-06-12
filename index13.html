@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavascriptArithmeticOperators </title>
+</head>
+<body>
+    <h1>Performing Arithmetic Operations 1 </h1>
+<script>
+   var a = 15, b = 5;
+   var addition, subtraction, multiplication, division, modulus;
+
+   addition = a + b; //addition of 5 and 15
+   subtraction = a - b; //subtract 5 from 15
+   multiplication = a * b; //Multiplying both
+   division = a / b; //dividing 15 by 5 (number of times)
+   modulus = a % b; //calculation the remainder
+
+   document.write("Addition of " +a +' and ' +b +" is = " + addition + "<br />");
+   document.write("Subtraction of " +a +' and ' +b +" is = " + subtraction + "<br />");
+   document.write("Multiplication of " +a +' and ' +b +" is = " + multiplication + "<br />");
+   document.write("Division of " +a +' and ' +b +" is = " + division + "<br />");
+   document.write("Modulus of " +a +' and ' +b +" is = " + modulus + "<br />");
+</script>
+
+    <h1>Performing Arithmetic Operations 2 </h1>
+    <p id = 'add'> Addition </p>
+    <p id = 'sub'> Subtraction </p>
+    <p id = 'mul'> Multiplication </p>
+    <p id = 'div'> Division </p>
+    <p id = 'mod'> Modulus </p>
+
+
+<script>
+   var a = 12, b = 3;
+   var add, sub, mul, div, mod;
+
+   add = a+b; //addition of 3 and 12
+   sub = a-b; //subtract 3 from 12
+   mul = a*b; //Multiplying both
+   div = a/b; //dividing 12 by 3 (number of times)
+   mod = a%b; //calculation the remainder
+
+   document.getElementById("add").innerHTML = "Addition of " +a +' and ' +b +" is = " + add;
+   document.getElementById("sub").innerHTML = "Subtraction of " +a +' and ' +b +" is = " + sub;
+   document.getElementById("mul").innerHTML = "Multiplication of " +a +' and ' +b +" is = "+ mul;
+   document.getElementById("div").innerHTML = "Division of " +a +' and ' +b +" is = " +  div;
+   document.getElementById("mod").innerHTML = "Modulus of " +a +' and ' +b +" is = " +  mod;
+
+</script>
+
+<h2>Js Assignments</h2>
+<h3>The *= Operator</h3>
+
+<p id="number"></p>
+
+<script>
+let f = 20;
+f *= 6;
+document.getElementById("number").innerHTML = f;
+</script>
+
+
+
+<h3>The %= Operator</h3>
+
+<p id="plate"></p>
+
+<script>
+let c = 18;
+c >= 9;
+document.getElementById("plate").innerHTML = c;
+</script>
+
+  
+  
+<h2>Js Data Types</h2>
+
+
+
+<h3 id="data"></h3>
+
+<script>
+let hh;         // Now x is undefined
+hh = 10;         // Now x is a Number
+hh = "Sameer Draxi";    // Now x is a String
+
+document.getElementById("data").innerHTML = hh;
+</script>
+
+<h2>airbuses</h2>
+
+    <h1 id="airbuses"></h1>
+
+  <script type="text/javascript">
+  let airbus1 = "emirati";
+  let airbus2 = "new airbuse 'indigo'";
+  let airbus3 = 'OUR indias airbuse  is  "indian airline"';
+
+document.getElementById("cars").innerHTML =
+airbus1 + "<br>" + 
+airbus2 + "<br>" + 
+airbus3;
+  </script>
+
+<h2>SWEETS</h2>
+    <h1 id="Name"></h1>
+
+  <script type="text/javascript">
+    const  rasagulla1 = 'cakewla'  // now rasagulla1 is a string
+    var  kashmirikand1 =30;          // now ashmirikand1 is a number
+    let f  = rasagulla1+ashmirikand1
+
+
+    document.getElementById("Name").innerHTML = f;
+
+  </script>
+
+
+</body>
+</html>
